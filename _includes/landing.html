@@ -5,7 +5,10 @@
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        <!-- Wrap the image with an anchor tag linking to the 'about' page -->
+        <a href="/about/">
+          <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        </a>
       </div>
     </div>
 
